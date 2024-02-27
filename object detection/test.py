@@ -7,7 +7,7 @@ KNN_subtractor = cv2.createBackgroundSubtractorKNN(detectShadows=True)
 
 bg_subtractor = KNN_subtractor
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture("desktop")
 
 while True:
     ret, frame = camera.read()
