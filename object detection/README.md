@@ -39,7 +39,7 @@ It captures video frames from the default camera (or the camera specified by the
 ### 4.Termination Condition:
  The loop continues until the user presses the 'Esc' key (27 in ASCII), upon which the program exits the loop and releases the camera resources.
 
- ### Resource Cleanup:
+ ### 5.Resource Cleanup:
   Once the loop terminates, the camera object is released using camera.release(), and all OpenCV windows are destroyed with cv2.destroyAllWindows().
 ## Deployment
 
